@@ -1,7 +1,5 @@
 # Switch-Inductor Small-Signal Modeling and PLECS Validation
 
-[中文说明](README.zh-CN.md)
-
 This project develops and validates analytical small-signal models for a
 switched-inductor power system. The engineering workflow connects the original
 switching circuit and digital control logic to handwritten derivations,
