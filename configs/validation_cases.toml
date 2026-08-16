@@ -1,0 +1,72 @@
+[cases.d1_to_il1__d1_gt_d2]
+input = "D1"
+output = "IL1"
+region = "D1 > D2"
+equation_module = "switch_inductor.equations.d1_to_il1__d1_gt_d2"
+transfer_function = "g_il1_d1"
+plecs_csv = "data/raw/plecs/d1_to_il1__d1_gt_d2.csv"
+plecs_model = "models/plecs/d1_to_il1__d1_gt_d2.plecs"
+
+[cases.d1_to_il1__d2_gt_d1]
+input = "D1"
+output = "IL1"
+region = "D2 > D1"
+equation_module = "switch_inductor.equations.d1_to_il1__d2_gt_d1"
+transfer_function = "g_il1_d1"
+plecs_csv = "data/raw/plecs/d1_to_il1__d2_gt_d1.csv"
+plecs_model = "models/plecs/d1_to_il1__d2_gt_d1.plecs"
+
+[cases.d1_to_il2__d1_gt_d2]
+input = "D1"
+output = "IL2"
+region = "D1 > D2"
+equation_module = "switch_inductor.equations.d1_to_il2__d1_gt_d2"
+transfer_function = "g_il2_d1"
+plecs_csv = "data/raw/plecs/d1_to_il2__d1_gt_d2.csv"
+plecs_model = "models/plecs/d1_to_il2__d1_gt_d2.plecs"
+
+[cases.d1_to_il2__d2_gt_d1]
+input = "D1"
+output = "IL2"
+region = "D2 > D1"
+equation_module = "switch_inductor.equations.d1_to_il2__d2_gt_d1"
+transfer_function = "g_il2_d1"
+plecs_csv = "data/raw/plecs/d1_to_il2__d2_gt_d1.csv"
+plecs_model = "models/plecs/d1_to_il2__d2_gt_d1.plecs"
+
+[cases.d2_to_il1__d1_gt_d2]
+input = "D2"
+output = "IL1"
+region = "D1 > D2"
+equation_module = "switch_inductor.equations.d2_to_il1__d1_gt_d2"
+transfer_function = "g_il1_d2"
+plecs_csv = "data/raw/plecs/d2_to_il1__d1_gt_d2.csv"
+plecs_model = "models/plecs/d2_to_il1__d1_gt_d2.plecs"
+
+[cases.d2_to_il1__d2_gt_d1]
+input = "D2"
+output = "IL1"
+region = "D2 > D1"
+equation_module = "switch_inductor.equations.d2_to_il1__d2_gt_d1"
+transfer_function = "g_il1_d2"
+plecs_csv = "data/raw/plecs/d2_to_il1__d2_gt_d1.csv"
+plecs_model = "models/plecs/d2_to_il1__d2_gt_d1.plecs"
+
+[cases.d2_to_il2__d1_gt_d2]
+input = "D2"
+output = "IL2"
+region = "D1 > D2"
+equation_module = "switch_inductor.equations.d2_to_il2__d1_gt_d2"
+transfer_function = "g_il2_d2"
+plecs_csv = "data/raw/plecs/d2_to_il2__d1_gt_d2.csv"
+plecs_model = "models/plecs/d2_to_il2__d1_gt_d2.plecs"
+
+[cases.d2_to_il2__d2_gt_d1]
+input = "D2"
+output = "IL2"
+region = "D2 > D1"
+equation_module = "switch_inductor.equations.d2_to_il2__d2_gt_d1"
+transfer_function = "g_il2_d2"
+plecs_csv = "data/raw/plecs/d2_to_il2__d2_gt_d1.csv"
+plecs_model = "models/plecs/d2_to_il2__d2_gt_d1.plecs"
+
